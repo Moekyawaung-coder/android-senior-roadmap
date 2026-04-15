@@ -1,0 +1,11 @@
+```json
+{
+  "overall": 22,
+  "phases": [
+    {"phase": 0, "name": "Kotlin Mastery", "progress": 100},
+    {"phase": 1, "name": "Architecture", "progress": 100},
+    {"phase": 2, "name": "Compose Mastery", "progress": 45}
+  ],
+  "lastUpdated": "2025-04-05"
+}
+```
