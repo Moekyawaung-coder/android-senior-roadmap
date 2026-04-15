@@ -1,0 +1,21 @@
+name: Update Senior Progress Badge
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 0 * * *'  # Daily at midnight
+
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update Progress
+        run: |
+          echo "Updating senior progress badge to 28%..."
+          sed -i 's/25%/28%/g' README.md
+      - name: Commit & Push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto update senior progress badge"
