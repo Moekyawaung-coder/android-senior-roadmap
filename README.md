@@ -36,49 +36,33 @@ graph TD
 **LinkedIn:** https://www.linkedin.com/in/moe-kyaw-aung-2653093a1
 ```
 
-**File 2: PHASES.md**
-```markdown
-# Detailed Phase Breakdown
+# 📍 Android Senior Roadmap 2025
 
-## Phase 2: Jetpack Compose Mastery (Current Focus)
-**Learning Objectives:**
-- Custom Design System with Material 3 tokens
-- Advanced state management (MVI with Orbit)
-- Complex animations, shared element transitions
-- Accessibility, foldable support, Wear OS Compose
+![Header](https://via.placeholder.com/1200x400/0A0A0A/00FF9F?text=Senior+Android+Engineer+Roadmap)
 
-**Project to Build:** See Repository 4 → compose-design-system
+**Moe Kyaw Aung (Moekyawaung)** — My transparent journey to Senior Android Engineer.
 
-**Success Metrics for Senior Level:**
-- Zero XML in new features
-- App size under 8MB after R8
-- 60 FPS on Android 10 devices
-- 95%+ test coverage on UI layer
+**Current Progress:** ![Progress](https://img.shields.io/badge/Progress-22%25-00FF9F?style=for-the-badge)
 
-**Resources:**
-- Jetpack Compose Internals (book)
-- Google I/O 2024 Compose sessions
-- Now in Android podcast
+## 🎯 8-Phase Senior Roadmap
+
+```mermaid
+graph TD
+    P0[Kotlin Mastery] --> P1[Clean Architecture + Modularization]
+    P1 --> P2[Jetpack Compose Expert]
+    P2 --> P3[Performance & Benchmarking]
+    P3 --> P4[Kotlin Multiplatform Mastery]
+    P4 --> P5[Advanced Testing & CI/CD]
+    P5 --> P6[Leadership & Mentoring]
+    P6 --> P7[Emerging Tech - Android XR, On-Device AI]
 ```
 
-**File 3: progress-tracker.md**
-```markdown
-# Senior Progress Tracker
+### Phase Status
+- Phase 0 & 1: ✅ Completed
+- Phase 2: 🔄 In Progress (Compose Design System)
+- Phase 3-7: ⏳ Planned
 
-Last Updated: April 2025  
-Overall Senior Completion: **25%**
+**Live Projects:** See Repository 4 (Senior Capstone Projects)
 
-| Phase | Name                              | Progress | Status |
-|-------|-----------------------------------|----------|--------|
-| 0     | Kotlin Mastery                    | 100%     | ✅     |
-| 1     | Clean Architecture                | 100%     | ✅     |
-| 2     | Jetpack Compose Expert            | 55%      | 🔄     |
-| 3     | Performance Engineering           | 0%       | ⏳     |
-| 4     | Kotlin Multiplatform              | 0%       | ⏳     |
-| 5     | Advanced Testing                  | 0%       | ⏳     |
-| 6     | CI/CD & DevOps                    | 0%       | ⏳     |
-| 7     | Leadership & Mentoring            | 0%       | ⏳     |
-| 8     | Emerging Tech                     | 0%       | ⏳     |
-
-Next Milestone: Finish Compose Design System by end of April 2025.
+⭐ Star this repo if you are also leveling up to Senior Android Engineer!
 ```
