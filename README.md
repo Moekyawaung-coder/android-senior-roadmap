@@ -8,7 +8,7 @@
 
 ## 🎯 8-Phase Senior Roadmap
 
-```mermaid
+mermaid
 graph TD
     P0[Kotlin Mastery] --> P1[Clean Architecture + Modularization]
     P1 --> P2[Jetpack Compose Expert]
@@ -17,3 +17,4 @@ graph TD
     P4 --> P5[Advanced Testing & CI/CD]
     P5 --> P6[Leadership & Mentoring]
     P6 --> P7[Emerging Tech - Android XR, On-Device AI]
+![Senior Roadmap](https://img.shields.io/badge/Senior%20Roadmap-Active-brightgreen?style=for-the-badge&logo=android&logoColor=00FF85)
